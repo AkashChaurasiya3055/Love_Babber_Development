@@ -1,0 +1,20 @@
+.box{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#org{
+    background-color: #838065;
+}
+#wht{
+    background-color: white;
+}
+#grn{
+    background-color: green;
+}

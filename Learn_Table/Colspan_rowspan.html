@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row Span and colspan</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: top;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Salary Slip</caption>
+        <tr>
+            <th>Month</th>
+            <th>Age</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Jan</td>
+            <td>25</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>Feb</td>
+            <td>26</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Mar</td>
+            <td rowspan="2" colspan="2">27</td>
+            <!-- <td>6000</td> -->
+        </tr>
+        <tr>
+            <td>april</td>
+            <!-- <td>29</td> -->
+            <!-- <td>8000</td> -->
+        </tr>
+    </table>
+    
+</body>
+</html>
