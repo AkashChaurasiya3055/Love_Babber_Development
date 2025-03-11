@@ -7,3 +7,6 @@ div{
 .translated{
     transform: perspective(10px) translateZ(-10px);
 }
+.scaled{
+    
+}
