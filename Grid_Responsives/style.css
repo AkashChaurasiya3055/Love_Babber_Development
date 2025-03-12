@@ -9,6 +9,13 @@
 .box{
     border: 1px solid green;
     background-color: aqua;
-    height: 100px;
-    width: 100px;
+    /* height: 100px;
+    width: 100px; */
 }
+#box1{
+     grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+}
+     
