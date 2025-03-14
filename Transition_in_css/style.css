@@ -1,0 +1,26 @@
+.Container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid blue;
+
+}
+.box{
+    border: 2px solid black;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    margin: 80px;
+    transition: 1s;
+    transition-property: all;
+    /* transition: transform 1s ease 0s; */
+    transition: transform 3s ease-in;
+} 
+.box:hover{
+    background-color: brown;
+    
+    transform:  scale(2) translateX(500px) rotate(360deg);
+
+
+}
