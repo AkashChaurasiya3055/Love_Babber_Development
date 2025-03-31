@@ -42,3 +42,14 @@ switch(num){
     break;
     default: console.log('E');
 }
+for(let i=0;i<5;i++)
+{
+    console.log(i);
+}
+
+let x=0;
+while(x>5)
+{
+    console.log(x);
+    x++;
+}
