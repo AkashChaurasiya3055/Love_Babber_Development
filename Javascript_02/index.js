@@ -30,10 +30,31 @@
 
 
 //constructor function 
-function Rectangle(){
-    this.length=1;
-    this.breadth=2;
-    this.draw=function(){
-        console.log('drawing');
-    }
+// function Rectangle(){
+//     this.length=1;
+//     this.breadth=2;
+//     this.draw=function(){
+//         console.log('drawing');
+//     }
+// }
+
+//object creation using constrcutor function
+// let rectangleObject=new Rectangle();
+
+// rectangleObject.color='yellow';
+// console.log(rectangleObject);
+
+
+// delete rectangleObject.color;
+// console.log(rectangleObject);
+
+let rectangle={
+    length:3,
+    breadth:5
+};
+//for -in-loop
+for(let key in rectangle){
+    //key are reflected through key value
+    //values are reflected through rectangle[key]
+    console.log(key,rectangle[key]);
 }
